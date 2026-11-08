@@ -42,3 +42,28 @@ print(lengths)
 # - `filter()` keeps only items that satisfy a condition.
 # - `lambda` creates a small anonymous function.
 # - Always convert the result of `map`/`filter` to a list with `list(...)` if you want to print or reuse it.
+
+
+
+class Song:
+    def __init__(self, lyrics): #constructor 
+        self.lyrics = lyrics
+
+    def sing_me_a_song(self):
+        for line in self.lyrics:
+            print(line)
+# __init__ is the constructor that receives the list of lyrics.
+# self.lyrics = lyrics stores the list inside the object.
+# sing_me_a_song() loops through the list and prints each line.
+
+happy_bday = Song([
+    "May god bless you, ",
+    "Have a sunshine on you,",
+    "Happy Birthday to you !"
+])
+
+happy_bday.sing_me_a_song()
+# output:
+# May god bless you, 
+# Have a sunshine on you,
+# Happy Birthday to you !
