@@ -10,7 +10,7 @@ import seaborn as sns
 
 # **EDA**
 """
-df = pd.read_csv(r'D:\\AI\\mater\\student_performance.csv')
+df = pd.read_csv(r'D:\\AI\\mater\\supermarket_sales.csv')#  student_performance.csv
 
 # print(df.shape)
 # print ("@" * 100)
