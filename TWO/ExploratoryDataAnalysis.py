@@ -9,10 +9,11 @@ import seaborn as sns
 """# **Read  data**
 
 # **EDA**
-"""
+"""  
 df = pd.read_csv(r'D:\\AI\\mater\\supermarket_sales.csv')#  student_performance.csv
-
-# print(df.shape)
+ 
+ 
+# print(df.shape) 
 # print ("@" * 100)
 # print(df.info())
 # print ("@" * 100)

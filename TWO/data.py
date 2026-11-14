@@ -17,6 +17,7 @@ train = pd.read_csv(r"D:\\AI\\mater\\train.csv")
 print(train)
 print(train.head())
 print(train.info())
+
 print(train.isnull())
 print(train.isnull().sum())
 
